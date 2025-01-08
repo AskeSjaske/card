@@ -1,10 +1,17 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client'
+
+import React, { useState } from 'react'
+import cardstyle from './Sass/card.module.scss'
+import './Sass/global.scss'
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      card
+    <div>
+      <main>
+        <section id={cardstyle.cardContainer}>
+          <div id={cardstyle.card}></div>
+        </section>
+      </main>
     </div>
   );
 }
