@@ -3,7 +3,7 @@ import sass from '../Sass/footer.module.scss'
 
 const Footer = () => {
   return (
-    <footer id={sass.footer}>
+    <footer id={ sass.footer }>
       Cool Ninja Kickass Footer
     </footer>
   )

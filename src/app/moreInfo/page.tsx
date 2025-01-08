@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <>
-      {id}
+      { id }
     </>
   )
 }

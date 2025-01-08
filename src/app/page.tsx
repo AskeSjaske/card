@@ -1,5 +1,4 @@
 'use client'
-
 import cardstyle from './Sass/card.module.scss'
 import './Sass/global.scss'
 
