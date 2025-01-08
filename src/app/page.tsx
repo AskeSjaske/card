@@ -1,15 +1,18 @@
 'use client'
-import cardstyle from './Sass/card.module.scss'
+import image from 'next/image'
+import Link from 'next/link'
+import React,{ useState } from 'react'
+import cardstyles from './Sass/page.module.scss'
 import './Sass/global.scss'
 
 export default function Home() {
   return (
-    <div>
-      <main>
-        <section id={cardstyle.cardContainer}>
-          <div id={cardstyle.card}></div>
-        </section>
-      </main>
-    </div>
-  );
+    <main className={cardstyles.main}>
+      <section id={cardstyles.cardContainer}>
+       <div id={cardstyles.card}>
+        
+       </div>
+      </section> 
+    </main>
+  )
 }
