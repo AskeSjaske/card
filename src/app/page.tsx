@@ -1,6 +1,5 @@
 'use client'
 
-import React, { useState } from 'react'
 import cardstyle from './Sass/card.module.scss'
 import './Sass/global.scss'
 
